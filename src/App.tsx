@@ -10,6 +10,9 @@ interface ListI {
   detail: any;
 }
 
+
+// POKE API NOT CLEAR FOR ME, I'M BLOCKING FOR API FROM POKEAPI
+
 function App() {
   const [list, setList] = useState<any[] | []>();
 
